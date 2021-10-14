@@ -1,0 +1,86 @@
+.btn_right {
+	position: absolute;
+	right: 50px;
+	bottom: -15px;
+}
+
+.btn_left {
+	position: absolute;
+	left: 20px;
+	bottom: -15px;
+}
+
+caption {
+	position: relative
+}
+
+caption a {
+	cursor: pointer;
+}
+
+caption {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+caption i {
+	color: #1E9FFF;
+	font-size: 20px !important;
+}
+
+.id {
+	display: none;
+}
+
+.tips {
+	margin: 50px 30px;
+	line-height: 20px;
+}
+
+/* 分页 */
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+
+.pagination>li {
+	display: inline;
+}
+
+.pagination>li .active {
+	background: #1E9FFF;
+	color: #fff
+}
+
+.pagination>li>a,
+.pagination>li>span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #337ab7;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.pagination>li>span {
+	cursor: not-allowed;
+}
+
+.layui-table {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.layui-form-checked[lay-skin=primary] i {
+	border-color: #1E9FFF !important;
+	background-color: #1E9FFF;
+}
+
+.layui-form-checkbox[lay-skin=primary]:hover i {
+	border-color: #1E9FFF;
+}
