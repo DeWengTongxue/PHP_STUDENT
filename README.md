@@ -14,9 +14,9 @@ layui、jQuery、PHP、HTML、CSS、JavaScript、Ajax
 
 #### 安装教程
 
-1. 把项目放置服务器网站根目录下，如：PHP study  放置www目录
+1. 把项目放置服务器网站根目录下，如： 放置在www目录
 
-2. 把项目根目录下的stuinfo.sql文件导入到MySQL数据库中，详情见[点击调转]( https://www.cnblogs.com/yuwensong/p/3955834.html )
+2. 把项目根目录下的stuinfo.sql文件导入到MySQL数据库中
 
 3. 修改项目中的conn.php文件，如自身环境配置和文件中一致则忽略本步骤，文件所在位置/php/conn.php
 
@@ -36,7 +36,7 @@ layui、jQuery、PHP、HTML、CSS、JavaScript、Ajax
 	  ?>
    ```
 
-4. 打开浏览器在地址栏输入[http://localhost/stuinfo/](http://localhost:80/stuinfo/)，默认端口是80可以忽略，如果链接打不开首先检查步骤1和步骤2是否操作，另外检查80端口是否被其他程序占用，如果被占用需要修改PHP study的端口号，详情见[点击调转]( https://blog.csdn.net/qq_27295403/article/details/79993614 )，如果链接打开程序报错检查步骤3是否正确。
+4. 打开浏览器在地址栏输入[http://localhost/stuinfo/](http://localhost:80/stuinfo/)，默认端口是80可以忽略，如果链接打不开首先检查步骤1和步骤2是否操作，另外检查80端口是否被其他程序占用，如果被占用需要修改PHP study的端口号
 
 5. 到此为止，项目可以正常运行了
 
